@@ -1,0 +1,231 @@
+.services{
+  font-family: 'Inter', 'Poppins' sans-serif;
+  background-color: #07143D;
+  padding: 80px 96px  88px 96px;
+  display: grid;
+  justify-items: center;
+  /* border-top:1px solid  #3a3a3a; */
+}
+
+.servicesheading{
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 72px;
+}
+
+.services-label{
+  display: flex;
+  font-size: 18px;
+  font-weight: 550;
+  color: #39E7BD;
+  width: fit-content;
+}
+
+
+.services-label img{
+  margin-right: 10px;
+}
+
+.services-headingtext{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+
+.services-maintext{
+  font-size: 48px;
+  line-height: 65px;
+  /* font-weight: 500; */
+  letter-spacing: -2%;
+  color: #F2F2F2;
+  width: 785px;
+  margin: 0 0 16px 0;
+  text-align: center;
+}
+
+.services-subtext{
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  width: 550px;
+  letter-spacing:0% ;
+  margin: 0;
+  padding: 0;
+  color: #CDCDCD;
+  font-weight: 300;
+}
+
+.service-listing{
+  margin-bottom: 88px;
+}
+
+.services button{
+  padding: 14px 20px;
+  line-height: 24px;
+  letter-spacing: -1%;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  border: none;
+  border-radius: 48px;
+  color: white;
+  font-weight: 600;
+  background-color: #39E7BD;
+}
+
+.services button:hover{
+  padding: 14px 20px;
+  line-height: 24px;
+  letter-spacing: -1%;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  border: none;
+  border-radius: 48px;
+  color: white;
+  font-weight: 600;
+  background-color: #07143D;
+  border: 1px solid  #39E7BD;
+  transition: 0.5s;
+}
+
+
+
+.first-service,  .third-service{
+  display: flex;
+  margin-bottom: 112px;
+  width:1159px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second-service{
+  display: flex;
+  margin-bottom: 112px;
+  width:1159px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fourth-service{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1159px;
+}
+
+.first-service-text, .third-service-text{
+  width: 524px;
+  height: fit-content;
+  padding: 10px 15px 10px 20px;
+  margin: 0;
+  border-left: 5px solid #39E7BD;
+}
+
+.second-service-text, .fourth-service-text{
+  width: 524px;
+  height: fit-content;
+  margin: 0 0 0 ;
+  padding: 10px 15px 10px 20px;
+  border-left: 5px solid #39E7BD;
+}
+
+
+
+.first-service-head, .second-service-head, .third-service-head, .fourth-service-head{
+  display: flex;
+  padding: 1px 1px 1px 0px;
+  margin-bottom: 10px;
+}
+
+ .first-service-head p,
+ .second-service-head p,
+ .third-service-head p,
+ .fourth-service-head p{
+ font-family: "poppins";
+ font-size: 26px;
+ color: #F2F2F2;
+ font-weight: 400;
+ line-height: 42px;
+ margin: 0;
+ padding: 0;
+}
+
+
+
+.first-service-head img, 
+.second-service-head img,
+.third-service-head img,
+.fourth-service-head img{
+  margin-right: 16px;
+}
+
+
+
+.first-service-sub, .second-service-sub, .third-service-sub, .fourth-service-sub{
+  font-family: 'poppins';
+  color: rgba(245, 245, 245, 0.8);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 33px;
+  letter-spacing: -1%;
+  padding: 0;
+  margin: 0;
+}
+
+.first-service-img, .second-service-img, .third-service-img, .fourth-service-img{
+  width: 564px;
+  height: 282px;
+  display: flex;
+  position: relative;
+  /* border: 1px solid wheat; */
+  justify-content: center;
+  align-items: center;
+}
+
+.first-service-img-frame, .second-service-img-frame, .third-service-img-frame, .fourth-service-img-frame{
+  width: 544px;
+  height: 260px;
+  margin: 10px;
+}
+
+.first-service-img-frame img,
+.third-service-img-frame img{
+  object-fit: cover;
+  object-position: center top;
+  width: 100%;
+  height: 100%;
+}
+
+.fourth-service-img-frame img,
+.second-service-img-frame img{
+  object-fit: cover;
+  object-position: center top;
+  width: 100%;
+  height: 100%;
+  transform: scaleX(-1);
+}
+
+/* .first-service-img img{
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  object-fit: cover;
+} */
+
+.right-angle-1{
+  display: flex;
+  position: absolute;
+  right: 0px;
+  top: 0px
+}
+
+.right-angle-2{
+  display: flex;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}

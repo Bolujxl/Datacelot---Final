@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Poppins' sans-serif;
+  background-color: white;
+}
+
+.testimonialsheading, .teamsheading, .blogheading, .contactheading{
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 72px;
+}
+
+.testimonials-label, .teams-label, .blog-label, .contact-label{
+  display: flex;
+  font-size: 18px;
+  font-weight: 550;
+  color: #39E7BD;
+  width: fit-content;
+}
+
+
+.testimonials-label img,
+.teams-label img,
+.blog-label img,
+.contact-label img{
+  margin-right: 10px;
+}
+
+.testimonials-headingtext, .teams-headingtext, .blog-headingtext, .contact-headingtext{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+
+.testimonials-maintext, .teams-maintext, .blog-maintext, .contact-maintext{
+  font-size: 48px;
+  line-height: 65px;
+  /* font-weight: 500; */
+  letter-spacing: -2%;
+  color: #F2F2F2;
+  width: 785px;
+  margin: 0 0 16px 0;
+  text-align: center;
+}
+
+.testimonials-subtext, .teams-subtext, .blog-subtext, .contact-subtext{
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  width: 550px;
+  letter-spacing:0% ;
+  margin: 0;
+  padding: 0;
+  color: #CDCDCD;
+  font-weight: 300;
+}

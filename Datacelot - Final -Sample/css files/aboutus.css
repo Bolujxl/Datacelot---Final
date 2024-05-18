@@ -1,0 +1,148 @@
+.about-us{
+  font-family: 'Inter', 'Poppins' sans-serif;
+  background-color: #07143D;
+  padding: 112px 102px 102px 72px;
+  /* border-top:1px solid  #3a3a3a; */
+}
+
+.aboutusheading{
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 72px;
+}
+
+.aboutus-label{
+  display: flex;
+  font-size: 18px;
+  font-weight: 550;
+  color: #39E7BD;
+  width: fit-content;
+}
+
+
+.aboutus-label img{
+  margin-right: 10px;
+}
+
+.aboutus-headingtext{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+
+.aboutus-maintext{
+  font-size: 48px;
+  line-height: 65px;
+  /* font-weight: 500; */
+  letter-spacing: -2%;
+  color: #F2F2F2;
+  width: 785px;
+  margin: 0 0 16px 0;
+  text-align: center;
+}
+
+.aboutus-subtext{
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  width: 550px;
+  letter-spacing:0% ;
+  margin: 0;
+  padding: 0;
+  color: #CDCDCD;
+  font-weight: 300;
+}
+
+
+.aboutuscontent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-decor-frame{
+  width: 650px;
+  height: 654px;
+  display: flex;
+  position: relative;
+
+}
+
+.image-frame{
+  width: 560px;
+  height: 565px;
+  display: flex;
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  z-index: 1;
+}
+
+.image-main{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.decor-1{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.decor-2{
+  display: flex;
+  position: absolute;
+  right: 20px;
+  bottom: 17px;
+}
+
+.textframe{
+  margin-left: 72px;
+}
+
+.textframe p{
+  width: 450px;
+  font-family: "poppins", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #ebebeb;
+  padding: 0%;
+  margin-bottom: 40px;
+
+
+}
+
+.textframe button{
+  padding: 14px 20px;
+  line-height: 24px;
+  letter-spacing: -1%;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  border: none;
+  border-radius: 48px;
+  color: white;
+  font-weight: 600;
+  background-color: #39E7BD;
+  }
+
+.textframe button:hover{
+  padding: 14px 20px;
+  line-height: 24px;
+  letter-spacing: -1%;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  border: none;
+  border-radius: 48px;
+  color: white;
+  font-weight: 600;
+  background-color: #07143D;
+  border: 1px solid  #39E7BD;
+  transition: 0.5s;
+}
