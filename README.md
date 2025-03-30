@@ -1,1 +1,1 @@
-This repository showcases a demo consultancy website.  It provides a glimpse into the design and functionality of a potential website for your consulting business. Feel free to explore the code and see how it's built.
+This repository showcases a demo data based solution website.  It provides a glimpse into the design and functionality of a potential website for your analytical business. Feel free to explore the code and see how it's built.
